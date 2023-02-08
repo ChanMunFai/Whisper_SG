@@ -1,0 +1,21 @@
+# Tiny Model config 
+model: tiny 
+exp_id: 00001
+
+# Training Parameters
+epochs: 5
+decoder_only: True 
+batch_size: 32
+learning_rate: 0.0005
+
+# Other Training Parameters
+weight_decay: 0.01
+adam_epsilon: 1e-8
+warmup_steps: 2
+gradient_accumulation_steps: 1
+
+# Deprecated
+save_every: 200
+log_every: 10
+wandb_on: True 
+

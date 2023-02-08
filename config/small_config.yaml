@@ -1,0 +1,16 @@
+wandb_on: None # True  
+
+# Tiny Model config 
+model: small 
+subdirectory: testing 
+
+# Training Parameters
+epochs: 1
+batch_size: 4
+learning_rate: 0.0001
+clip: 150 
+
+# Logging Parameters
+save_every: 100
+evaluate_every: 100 
+log_every: 20 

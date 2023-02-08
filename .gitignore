@@ -1,0 +1,13 @@
+whisper_env/
+wandb/
+runs/
+saves/
+.vscode/
+__pycache__/
+archive/
+logs/
+outputs/
+jap/
+saved_models/
+results/
+reflections/
