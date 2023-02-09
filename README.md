@@ -19,7 +19,10 @@ I am unable to find any large-scale labelled audio datasets, and would have to f
 Kindly get in touch if you would like to collaborate on this :) 
 
 # Roadmap 
+- [ ] Integration with Wandb
 - [ ] Finetune Whisper on different model sizes on the entire NSC dataset. Other parts of the NSC dataset include multiple-speaker and slightly noisier recordings. 
 - [ ] Data augmentation (i.e. adding noise) to improve real-world performance 
 - [ ] App
-    - [ ] I will be publishing a Gradio demo soon but I hope to learn some ML Ops to develop an app that performs automatic transcription of Singaporean videos.
+    - [ ] Gradio Spaces 
+    - [ ] YouTube transcription(?) or ChatBot(?)
+
