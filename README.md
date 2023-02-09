@@ -7,7 +7,7 @@ Info-communications and Media Development Authorithy(IMDA) of Singapore
 
 Whisper by OpenAI is an Automatic Speech Recognition(ASR) model trained on 680,000 hours of supervised data coming from multiple languages and accents. Due to this large and diverse training data, Whisper is robust and attains good zero-shot performance across different accents and languages. However, finetuning Whisper will often generate better in-domain performance than its initial pretrained model.
 
-![Different pronunciations of 'butter' by Peter Tan, 2000](https://github.com/ChanMunFai/Whisper_SG/blob/master/9530343F-3CE2-4D55-9D97-2C46E45622D7.jpeg)
+![Different pronunciations of 'butter' by Peter Tan, 2000](https://github.com/ChanMunFai/Whisper_SG/blob/master/9530343F-3CE2-4D55-9D97-2C46E45622D7.jpeg) Different pronunciations of 'butter' by Peter Tan, 2000
 # Model Versions
 ### v1.1
 I have used a subset(~150GB) of the NSC data, with a 80/20 training and testing split. Currently, all train and test data are single-speaker, studio-recorded audio files.
