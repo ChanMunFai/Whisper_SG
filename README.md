@@ -1,8 +1,8 @@
-# Whisper_SG
+# WhisperSG
 
-This repository seeks to finetune OpenAI Whisper on Singaporean English.
+This repository seeks to finetune [OpenAI Whisper](https://openai.com/blog/whisper/) on Singaporean English.
 
-The data comes from the National Speech Corpus(NSC) spearheaded by the 
+The data comes from the [National Speech Corpus(NSC)](https://www.imda.gov.sg/nationalspeechcorpus) spearheaded by the 
 Info Communications and Media Development Authorithy(IMDA) of Singapore
 
 Whisper by OpenAI is an Automatic Speech Recognition(ASR) model trained on 680,000 hours of supervised data coming from multiple languages and accents. Due to this large and diverse training data, Whisper is robust and attains good zero-shot performance across different accents and languages. However, finetuning Whisper will often generate better in-domain performance than its initial pretrained model.
