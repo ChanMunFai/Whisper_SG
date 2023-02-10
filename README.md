@@ -19,11 +19,23 @@ For a quick demo of the Tiny Model, I have created a Gradio [demo](https://munfa
 
 <table>
   <tr>
-    <td>One</td>
-    <td>Two</td>
+    <td>Model</td>
+    <td colspan="2">Initial Model</td>
+    <td colspan="2">Finetuned Model</td>
   </tr>
   <tr>
-    <td colspan="2">Three</td>
+    <td></td>
+    <td>WER</td>
+    <td>CER</td>
+     <td>WER</td>
+    <td>CER</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>WER</td>
+    <td>CER</td>
+     <td>WER</td>
+    <td>CER</td>
   </tr>
 </table>
 
