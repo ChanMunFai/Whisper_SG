@@ -20,8 +20,8 @@ For a quick demo of the Tiny Model, I have created a Gradio [demo](https://munfa
 <table>
   <tr>
     <td><b>Model</b></td>
-    <td colspan="2">Initial Model</td>
-    <td colspan="2">Finetuned Model</td>
+    <td colspan="2"><b>Initial Model</b></td>
+    <td colspan="2"><b>Finetuned Model</b></td>
   </tr>
   <tr>
     <td></td>
@@ -46,12 +46,7 @@ For a quick demo of the Tiny Model, I have created a Gradio [demo](https://munfa
   </tr>
 </table>
 
-| Model | Word Error Rate (WER) | Character Error Rate (CER) |
-| ------------- | ------------- | ------------- |
-| Base Model  | 0.12  | 0.06 |
-| Finetuned Base | 0.057 | 0.032|
-| Tiny Model  | 0.18  | 0.09 |
-| Finetuned Tiny |  0.073  | 0.042 |
+where WER refers to the Word Error Rate and CER refers to Character Error Rate. 
 
 # What this Model is NOT about
 This model has not been fine tuned on any data containing [Singlish](https://eresources.nlb.gov.sg/infopedia/articles/SIP_1745_2010-12-29.html). 
