@@ -58,6 +58,6 @@ Kindly get in touch if you would like to collaborate on this :)
 - [ ] Finetune Whisper on different model sizes on the entire NSC dataset. Other parts of the NSC dataset include multiple-speaker and slightly noisier recordings. 
 - [ ] Data augmentation (i.e. adding noise) to improve real-world performance 
 - [ ] App
-    - [ ] Gradio Spaces 
+    - [X] Gradio Spaces 
     - [ ] YouTube transcription(?) or ChatBot(?)
 
