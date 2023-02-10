@@ -32,12 +32,6 @@ warnings.filterwarnings(
     "ignore", "Detected call of", UserWarning
 )
 
-
-SEED = 3407
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-seed_everything(SEED, workers=True)
-
-
 class WhisperModelModule(LightningModule):
     def __init__(self, **kwargs) -> None:
         super().__init__()
@@ -56,9 +50,6 @@ class WhisperModelModule(LightningModule):
         self.metrics_wer = evaluate.load("wer")
         self.metrics_cer = evaluate.load("cer")
 
-        self.train_dataset = train_dataset
-        self.val_dataset = val_dataset
-    
     def forward(self, x):
         return self.model(x)
 
@@ -142,14 +133,12 @@ class WhisperModelModule(LightningModule):
                 // self.args.gradient_accumulation_steps
                 * float(self.args.epochs)
             )
-    
-    # def train_dataloader(self):
-    #     return DataLoader(self.train_dataset, batch_size=32, collate_fn=WhisperDataCollatorWhithPadding(), num_workers=0)
-
-    # def val_dataloader(self):
-    #     return DataLoader(self.val_dataset, batch_size=32, collate_fn=WhisperDataCollatorWhithPadding(), num_workers=0)
 
 if __name__ == "__main__": 
+    SEED = 3407
+    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+    seed_everything(SEED, workers=True)
+    
     parser = configargparse.ArgParser()
     parser.add('-c', '--config', required=True, is_config_file=True, help='config file path')
     parser.add('-m', '--model', choices=['tiny', 'base', 'small', 'medium', 'large'], help='Model Size')
