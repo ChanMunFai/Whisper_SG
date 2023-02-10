@@ -13,13 +13,15 @@ Different pronunciations of 'butter' by Peter Tan, 2000
 # Model Versions
 ### v1.1
 I have used a subset(~150GB) of the NSC data, with a 80/20 training and testing split. Currently, all train and test data are single-speaker, studio-recorded audio files.
-Performance after finetuning for 5 epochs on the 'base' model improved performance from a Word Error Rate(WER) of 12% to 5.7%.
-Training on my RTX 3090Ti took about 3-4 hours.
+Performance after finetuning for 5 epochs on the 'base' model improved performance from a Word Error Rate(WER) of 12% to 5.7%, whilst WER on the 'tiny' model fell from 0.18 to XX. 
+
 
 | Model | Word Error Rate (WER) | Character Error Rate (CER) |
 | ------------- | ------------- | ------------- |
 | Base Model  | 0.12  | 0.06 |
 | Finetuned Base | 0.057 | 0.032|
+| Tiny Model  | 0.18  | 0.09 |
+| Finetuned Tiny |  0.073  | 0.042 |
 
 # What this Model is NOT about
 This model has not been fine tuned on any data containing [Singlish](https://eresources.nlb.gov.sg/infopedia/articles/SIP_1745_2010-12-29.html). 
