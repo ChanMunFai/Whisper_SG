@@ -13,8 +13,19 @@ Different pronunciations of 'butter' by Peter Tan, 2000
 # Model Versions
 ### v1.1
 I have used a subset(~150GB) of the NSC data, with a 80/20 training and testing split. Currently, all train and test data are single-speaker, studio-recorded audio files.
-Performance after finetuning for 5 epochs on the 'base' model improved performance from a Word Error Rate(WER) of 12% to 5.7%, whilst WER on the 'tiny' model fell from 0.18 to XX. 
+Performance after finetuning for 5 epochs on the 'base' model improved performance from a Word Error Rate(WER) of 12% to 5.7%, whilst WER on the 'tiny' model fell from 0.18 to 0.09.
 
+For a quick demo of the Tiny Model, I have created a Gradio [demo](https://munfai15-whisper-sg.hf.space). 
+
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
 
 | Model | Word Error Rate (WER) | Character Error Rate (CER) |
 | ------------- | ------------- | ------------- |
