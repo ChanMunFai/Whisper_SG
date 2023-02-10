@@ -31,11 +31,18 @@ For a quick demo of the Tiny Model, I have created a Gradio [demo](https://munfa
     <td>CER</td>
   </tr>
   <tr>
-    <td></td>
-    <td>WER</td>
-    <td>CER</td>
-     <td>WER</td>
-    <td>CER</td>
+    <td>Tiny</td>
+    <td>0.18</td>
+    <td>0.09</td>
+     <td>0.073</td>
+    <td>0.042</td>
+  </tr>
+  <tr>
+    <td>Base</td>
+    <td>0.12</td>
+    <td>0.06</td>
+     <td>0.057</td>
+    <td>0.032</td>
   </tr>
 </table>
 
